@@ -1,0 +1,7 @@
+print("Таблица Умножения")
+
+n1 = int(input("Выбери Число:"))
+
+
+for umn in range(1,11):
+    print(n1, "*", umn, "=", n1 * umn)
